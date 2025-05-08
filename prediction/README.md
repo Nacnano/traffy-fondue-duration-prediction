@@ -31,7 +31,12 @@ prediction/
 
 ## 🛠️ Setup Instructions
 
-### 1. Clone the repository or copy files
+### 1. Download trained medel from Kaggle
+
+Go to [Link Text](https://www.kaggle.com/code/nacnano/traffy-fondue-duration/notebook).
+In the output section, download file named "best_model_state.bin" and put it in project directory.
+
+### 2. Clone the repository or copy files
 
 ```bash
 
@@ -40,7 +45,7 @@ cd dsde
 
 ```
 
-### 2. Create a virtual environment
+### 3. Create a virtual environment
 
 ```bash
 
@@ -50,7 +55,7 @@ venv\\Scripts\\activate         # On Windows
 
 ```
 
-### 3. Install dependencies
+### 4. Install dependencies
 
 ```bash
 
@@ -60,7 +65,7 @@ pip install streamlit torch transformers pandas plotly pydeck
 
 ```
 
-### 4. Download Tokenizer (if not included)
+### 5. Download Tokenizer (if not included)
 
 ```bash
 
@@ -71,7 +76,7 @@ tokenizer.save_pretrained("./tokenizer")
 
 ```
 
-### 5. Run the app
+### 6. Run the app
 
 ```bash
 
