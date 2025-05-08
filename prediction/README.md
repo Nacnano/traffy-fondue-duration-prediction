@@ -31,9 +31,9 @@ prediction/
 
 ## 🛠️ Setup Instructions
 
-### 1. Download trained medel from Kaggle
+### 1. Download trained model from Kaggle
 
-Go to [Link Text](https://www.kaggle.com/code/nacnano/traffy-fondue-duration/notebook).
+Go to [Kaggle.com](https://www.kaggle.com/code/nacnano/traffy-fondue-duration/notebook).
 In the output section, download file named "best_model_state.bin" and put it in project directory.
 
 ### 2. Clone the repository or copy files
