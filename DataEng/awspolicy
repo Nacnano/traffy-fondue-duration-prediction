@@ -1,0 +1,51 @@
+{
+	"Version": "2012-10-17",
+	"Statement": [
+		{
+			"Sid": "AllowS3FullAccessWithinBucket",
+			"Effect": "Allow",
+			"Action": [
+				"s3:PutObject",
+				"s3:GetObject",
+				"s3:DeleteObject"
+			],
+			"Resource": "arn:aws:s3:::dsde-final-proj/*"
+		},
+		{
+			"Sid": "AllowS3ListBucket",
+			"Effect": "Allow",
+			"Action": [
+				"s3:ListBucket",
+				"s3:GetBucketLocation"
+			],
+			"Resource": "arn:aws:s3:::dsde-final-proj"
+		},
+		{
+			"Sid": "AllowAthenaQueryExecution",
+			"Effect": "Allow",
+			"Action": [
+				"athena:StartQueryExecution",
+				"athena:GetQueryExecution",
+				"athena:GetQueryResults"
+			],
+			"Resource": "*"
+		},
+		{
+			"Sid": "AllowGlueCatalogAccess",
+			"Effect": "Allow",
+			"Action": [
+				"glue:GetDatabase",
+				"glue:GetDatabases",
+				"glue:GetTable",
+				"glue:GetTables",
+				"glue:GetPartition",
+				"glue:GetPartitions"
+			],
+			"Resource": [
+				"arn:aws:glue:*:*:catalog",
+				"arn:aws:glue:*:*:database/dsde-finalproj-traffy",
+				"arn:aws:glue:*:*:table/dsde-finalproj-traffy/*"
+			]
+		}
+	]
+}
