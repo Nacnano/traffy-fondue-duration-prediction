@@ -15,6 +15,8 @@ This is a Streamlit-based interactive dashboard for analyzing and predicting the
 
 ## 📁 Project Structure
 
+```bash
+
 prediction/
 ├── best_model_state.bin # Trained model weights
 ├── streamlit.py # Main dashboard application
@@ -24,6 +26,7 @@ prediction/
 ├── requirements.txt # Python dependencies (optional)
 └── README.md # This file
 
+```
 ---
 
 ## 🛠️ Setup Instructions
@@ -92,10 +95,15 @@ Area: ชื่อเขตหรือพื้นที่ เช่น บา
 ## 🧑‍💻 Authors
 
 Fine-tuned by: 
+
+```bash
+
 Punnawich Yiamsombat 6431331421
 Chotpisit Adunsehawat 6531313221
 Vijak Khajornritdacha 6532155621
 Korakrit Vichitlekarn 6431301621
+
+```
 
 Model: WangchanBERTa
 
