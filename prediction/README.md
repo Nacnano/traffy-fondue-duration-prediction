@@ -40,8 +40,8 @@ In the output section, download file named "best_model_state.bin" and put it in 
 
 ```bash
 
-git clone <your-repo-url>
-cd dsde
+git clone <https://github.com/Nacnano/traffy-fondue-duration-prediction>
+cd prediction
 
 ```
 
