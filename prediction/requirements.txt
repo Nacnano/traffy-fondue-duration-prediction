@@ -1,0 +1,11 @@
+streamlit
+pandas
+numpy
+torch
+transformers
+scikit-learn
+matplotlib
+seaborn
+plotly
+pydeck
+requests
